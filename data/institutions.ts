@@ -577,6 +577,41 @@ export const institutions: Institution[] = [
       { name: "Bundeszentralamt für Steuern", country: "Germany", baseline2000: "A+", rating: "A", outlook: "Stable" },
       { name: "Swedish Tax Agency (Skatteverket)", country: "Sweden", baseline2000: "AA–", rating: "A+", outlook: "Stable" }
     ]
+  },
+  {
+    id: "17",
+    name: "Prosecutorial Services (CPS / SFO)",
+    slug: "prosecutorial-services",
+    formalRating: "BBB+",
+    formalOutlook: "Negative",
+    formalDate: "2026-Q2",
+    baseline2000: "A",
+    trajectory: "Deteriorating",
+    weeklySignal: "Negative",
+    signalWeek: "3–9 Aug 2026",
+    signalDriver: "Ongoing coverage of charging delays, case attrition and court backlogs affecting prosecution outcomes.",
+    summary: "Independent prosecution remains institutionally established, but public confidence is weak and operational throughput is constrained by court backlogs, charging delays and workforce pressure. The SFO retains niche strength on corporate enforcement and DPAs, while complex case disclosure and attrition remain material vulnerabilities.",
+    trajectoryNotes: [
+      "2000 baseline reflects CPS (Prosecution of Offences Act 1985) and SFO (Criminal Justice Act 1987) as a combined prosecutorial apparatus.",
+      "Public confidence that prosecutors bring the right charge has stagnated near historic lows (~53%).",
+      "Crown Court backlogs and pre-charge delays degrade system performance; SFO vacancy and disclosure pressures persist.",
+      "International standing on Bribery Act enforcement and DPAs remains a relative strength."
+    ],
+    pillars: [
+      { name: "Public Trust & Respect", judgement: "Material negative", snapshot: "Confidence that the right charge is brought has stagnated at historic lows; attrition in rape and domestic abuse cases and long pre-charge waits damage legitimacy.", trend: "Deteriorating" },
+      { name: "Performance & Effectiveness", judgement: "Borderline under strain", snapshot: "28-day charging performance improved but still missed target; Crown Court backlogs exceed 100,000 complex cases; SFO DPAs and corporate enforcement are stronger relative points.", trend: "Deteriorating" },
+      { name: "Financial / Operational Sustainability", judgement: "Borderline", snapshot: "High prosecutor turnover, shortage of experienced Crown Advocates and ~14% SFO vacancy rate; reliance on external counsel strains budgets.", trend: "Deteriorating" },
+      { name: "International Standing", judgement: "Adequate", snapshot: "Common-law prosecutorial standards and Bribery Act / DPA practice remain internationally referenced.", trend: "Stable" },
+      { name: "Shock Absorption & Adaptive Capacity", judgement: "Adequate", snapshot: "Showed agility on public-order surges and emergency charging protocols, but structural court backlogs limit clean recovery capacity.", trend: "Deteriorating" }
+    ],
+    peers: [
+      { name: "Director of Public Prosecutions / Commonwealth DPP", country: "Australia", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Public Prosecution Service of Canada", country: "Canada", baseline2000: "A", rating: "A–", outlook: "Stable" },
+      { name: "Parquet National Financier / PPO", country: "France", baseline2000: "A–", rating: "A–", outlook: "Stable" },
+      { name: "Federal Public Prosecutor General (GBA)", country: "Germany", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Public Prosecution Service", country: "Netherlands", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Department of Justice / Criminal Division", country: "United States", baseline2000: "A", rating: "A–", outlook: "Stable" }
+    ]
   }
 ];
 
