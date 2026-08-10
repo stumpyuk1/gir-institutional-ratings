@@ -111,7 +111,7 @@ export default function DashboardPage() {
 
       <div className="mb-10">
         <h2 className="text-lg font-semibold text-gray-900 mb-3">
-          25-year overview · all 21 institutions
+          25-year overview · all institutions
         </h2>
         <ComparisonChart rows={overviewRows} />
       </div>
