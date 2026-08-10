@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getInstitution, institutions } from "@/data/institutions";
 import { RatingBadge } from "@/components/RatingBadge";
 import { SignalBadge } from "@/components/SignalBadge";
+import { ComparisonChart } from "@/components/ComparisonChart";
 
 export function generateStaticParams() {
   return institutions.map((i) => ({ slug: i.slug }));
@@ -16,6 +17,23 @@ export default async function InstitutionPage({
   const { slug } = await params;
   const inst = getInstitution(slug);
   if (!inst) notFound();
+
+  const chartRows = [
+    {
+      label: "UK",
+      sublabel: inst.name.length > 18 ? inst.name.slice(0, 17) + "…" : inst.name,
+      baseline2000: inst.baseline2000,
+      rating2026: inst.formalRating,
+      highlight: true,
+    },
+    ...inst.peers.map((p) => ({
+      label: p.country.split(" /")[0].split(" ")[0],
+      sublabel: p.name.length > 16 ? p.name.slice(0, 15) + "…" : p.name,
+      baseline2000: p.baseline2000,
+      rating2026: p.rating,
+      highlight: false,
+    })),
+  ];
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
@@ -92,6 +110,16 @@ export default async function InstitutionPage({
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-lg font-semibold text-gray-900 mb-3">
+          Visual comparison
+        </h2>
+        <ComparisonChart
+          title={`${inst.name} vs international peers`}
+          rows={chartRows}
+        />
       </section>
 
       <section className="mt-10">
