@@ -3,11 +3,35 @@ import { institutions } from "@/data/institutions";
 import { RatingBadge } from "@/components/RatingBadge";
 import { SignalBadge } from "@/components/SignalBadge";
 import { ShieldIcon } from "@/components/ShieldIcon";
+import { ComparisonChart } from "@/components/ComparisonChart";
+
+const SHORT: Record<string, string> = {
+  monarchy: "Monarchy",
+  parliament: "Parliament",
+  "civil-service": "Civil Svc",
+  judiciary: "Judiciary",
+  "armed-forces": "Armed Forces",
+  police: "Police",
+  nhs: "NHS",
+  "higher-education": "Universities",
+  bbc: "BBC",
+  "bank-of-england": "BoE",
+  "hm-treasury": "Treasury",
+  "local-government": "Local Gov",
+  "church-of-england": "C of E",
+};
 
 export default function DashboardPage() {
   const positive = institutions.filter((i) => i.weeklySignal === "Positive").length;
   const neutral = institutions.filter((i) => i.weeklySignal === "Neutral").length;
   const negative = institutions.filter((i) => i.weeklySignal === "Negative").length;
+
+  const overviewRows = institutions.map((i) => ({
+    label: SHORT[i.slug] ?? i.name,
+    baseline2000: i.baseline2000,
+    rating2026: i.formalRating,
+    highlight: false,
+  }));
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
@@ -53,6 +77,14 @@ export default function DashboardPage() {
         <p className="mt-3 text-sm text-gray-600">
           Several institutions under continued negative trust pressure (Parliament, Police, NHS, Treasury, Local Government). Armed Forces and residual soft-power institutions remain relatively stable.
         </p>
+      </div>
+
+      {/* Overview chart */}
+      <div className="mb-10">
+        <h2 className="text-lg font-semibold text-gray-900 mb-3">
+          25-year overview · all 13 institutions
+        </h2>
+        <ComparisonChart rows={overviewRows} />
       </div>
 
       {/* Institutions grid */}
