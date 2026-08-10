@@ -14,13 +14,13 @@ export default function MethodologyPage() {
         Methodology
       </h1>
       <p className="mt-3 text-lg text-gray-600">
-        How Grok Institutional Ratings (GIR) work.
+        How GB Institutional Ratings work.
       </p>
 
       <section className="mt-10 space-y-4">
         <h2 className="text-xl font-semibold text-gray-900">The dual-track model</h2>
         <p className="text-gray-700 leading-relaxed">
-          GIR uses two complementary layers:
+          The framework uses two complementary layers:
         </p>
         <ul className="list-disc space-y-2 pl-5 text-gray-700">
           <li>
@@ -96,7 +96,7 @@ export default function MethodologyPage() {
       <section className="mt-10 space-y-4">
         <h2 className="text-xl font-semibold text-gray-900">Limitations</h2>
         <p className="text-gray-700 leading-relaxed">
-          GIR ratings are qualitative and interpretive. They prioritise long-run trends and institutional capacity over short-term politics. Modest differences between careful analysts are expected. The weekly signal reflects media and social attention and can be noisy; the formal rating remains the sole authoritative judgement.
+          Ratings are qualitative and interpretive. They prioritise long-run trends and institutional capacity over short-term politics. Modest differences between careful analysts are expected. The weekly signal reflects media and social attention and can be noisy; the formal rating remains the sole authoritative judgement.
         </p>
       </section>
 
