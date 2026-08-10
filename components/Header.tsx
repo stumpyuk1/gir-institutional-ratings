@@ -17,9 +17,12 @@ export function Header() {
               </span>
             </div>
           </Link>
-          <nav className="flex items-center gap-6 text-sm font-medium text-gray-600">
+          <nav className="flex items-center gap-5 text-sm font-medium text-gray-600 sm:gap-6">
             <Link href="/" className="hover:text-gray-900 transition">
               Dashboard
+            </Link>
+            <Link href="/blog" className="hover:text-gray-900 transition">
+              Blog
             </Link>
             <Link href="/methodology" className="hover:text-gray-900 transition">
               Methodology
