@@ -24,7 +24,7 @@ export default function MethodologyPage() {
         </p>
         <ul className="list-disc space-y-2 pl-5 text-gray-700">
           <li>
-            <strong>Formal ratings</strong> (authoritative) — full five-pillar assessments updated quarterly for the 15 UK institutions and their international peers.
+            <strong>Formal ratings</strong> (authoritative) — full five-pillar assessments updated quarterly for the 16 UK institutions and their international peers.
           </li>
           <li>
             <strong>Weekly Trust-Pressure Signal</strong> (provisional) — a simple directional indicator (Positive / Neutral / Negative pressure) focused on short-term Public Trust for UK institutions only. It cannot change the formal rating.
@@ -75,7 +75,7 @@ export default function MethodologyPage() {
       <section className="mt-10 space-y-4">
         <h2 className="text-xl font-semibold text-gray-900">Weekly Trust-Pressure Signal</h2>
         <p className="text-gray-700 leading-relaxed">
-          Each week the 15 UK institutions receive a directional signal based primarily on short-term movements in Public Trust, using:
+          Each week the 16 UK institutions receive a directional signal based primarily on short-term movements in Public Trust, using:
         </p>
         <ul className="list-disc space-y-1 pl-5 text-gray-700">
           <li>News flow (major UK outlets + specialist coverage) classified as Clearly Positive / Negative / Mixed / Quiet</li>
