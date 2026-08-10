@@ -24,6 +24,7 @@ const SHORT: Record<string, string> = {
   "state-school-system": "Schools",
   hmrc: "HMRC",
   "prosecutorial-services": "CPS/SFO",
+  "fire-and-rescue": "Fire",
 };
 
 export default function DashboardPage() {
@@ -101,13 +102,13 @@ export default function DashboardPage() {
           </div>
         </div>
         <p className="mt-3 text-sm text-gray-600">
-          Several institutions under continued negative trust pressure (Parliament, Police, NHS, Treasury, Local Government, Prisons & Probation, CPS/SFO). Armed Forces and residual soft-power institutions remain relatively stable.
+          Several institutions under continued negative trust pressure (Parliament, Police, NHS, Treasury, Local Government, Prisons & Probation, CPS/SFO). Armed Forces, Fire and residual soft-power institutions remain relatively stable.
         </p>
       </div>
 
       <div className="mb-10">
         <h2 className="text-lg font-semibold text-gray-900 mb-3">
-          25-year overview · all 17 institutions
+          25-year overview · all 18 institutions
         </h2>
         <ComparisonChart rows={overviewRows} />
       </div>
