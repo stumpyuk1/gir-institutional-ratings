@@ -4,9 +4,9 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Grok Institutional Ratings (GIR)",
+  title: "GB Institutional Ratings",
   description:
-    "Comparative ratings of UK institutional health with formal quarterly assessments and weekly trust-pressure signals.",
+    "Who still holds? Comparative ratings of UK institutional health with formal quarterly assessments and weekly trust-pressure signals.",
 };
 
 export default function RootLayout({
