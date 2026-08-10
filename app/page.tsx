@@ -22,6 +22,7 @@ const SHORT: Record<string, string> = {
   "church-of-england": "C of E",
   "prisons-probation": "Prisons",
   "state-school-system": "Schools",
+  hmrc: "HMRC",
 };
 
 export default function DashboardPage() {
@@ -40,7 +41,6 @@ export default function DashboardPage() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-      {/* Hero */}
       <div className="mb-8 flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:gap-8">
         <ShieldIcon className="h-24 w-24 shrink-0 sm:h-28 sm:w-28" />
         <div>
@@ -63,7 +63,6 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* Blog link callout */}
       <div className="mb-10 rounded-xl border border-[#0B1F3A]/10 bg-[#0B1F3A]/[0.03] px-5 py-4">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <div>
@@ -85,7 +84,6 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* Weekly snapshot */}
       <div className="mb-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="text-sm font-semibold uppercase tracking-wide text-gray-500">
           This week’s trust-pressure snapshot
@@ -106,15 +104,13 @@ export default function DashboardPage() {
         </p>
       </div>
 
-      {/* Overview chart */}
       <div className="mb-10">
         <h2 className="text-lg font-semibold text-gray-900 mb-3">
-          25-year overview · all 15 institutions
+          25-year overview · all 16 institutions
         </h2>
         <ComparisonChart rows={overviewRows} />
       </div>
 
-      {/* Institutions grid */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {institutions.map((inst) => (
           <Link
