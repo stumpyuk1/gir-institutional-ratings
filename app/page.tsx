@@ -2,6 +2,7 @@ import Link from "next/link";
 import { institutions } from "@/data/institutions";
 import { RatingBadge } from "@/components/RatingBadge";
 import { SignalBadge } from "@/components/SignalBadge";
+import { ShieldIcon } from "@/components/ShieldIcon";
 
 export default function DashboardPage() {
   const positive = institutions.filter((i) => i.weeklySignal === "Positive").length;
@@ -10,21 +11,30 @@ export default function DashboardPage() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-      <div className="mb-10">
-        <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          UK Institutional Ratings
-        </h1>
-        <p className="mt-3 max-w-2xl text-lg text-gray-600">
-          Formal quarterly GIR ratings with weekly trust-pressure signals.
-          Formal ratings are authoritative; weekly signals are provisional indicators of short-term pressure on Public Trust.
-        </p>
-        <div className="mt-4 flex flex-wrap gap-4 text-sm text-gray-500">
-          <span>Formal update: 2026-Q2</span>
-          <span>·</span>
-          <span>Weekly signals: 3–9 Aug 2026</span>
+      {/* Hero */}
+      <div className="mb-12 flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:gap-8">
+        <ShieldIcon className="h-24 w-24 shrink-0 sm:h-28 sm:w-28" />
+        <div>
+          <h1 className="text-3xl font-bold tracking-tight text-[#0B1F3A] sm:text-4xl">
+            GB Institutional Ratings
+          </h1>
+          <p className="mt-2 text-xl font-medium text-[#C9A227] sm:text-2xl">
+            Who still holds?
+          </p>
+          <p className="mt-3 max-w-2xl text-base text-gray-600">
+            Formal quarterly ratings of UK institutional health, with weekly
+            trust-pressure signals. Formal ratings are authoritative; weekly
+            signals are provisional indicators of short-term pressure on Public Trust.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-4 text-sm text-gray-500">
+            <span>Formal update: 2026-Q2</span>
+            <span>·</span>
+            <span>Weekly signals: 3–9 Aug 2026</span>
+          </div>
         </div>
       </div>
 
+      {/* Weekly snapshot */}
       <div className="mb-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="text-sm font-semibold uppercase tracking-wide text-gray-500">
           This week’s trust-pressure snapshot
@@ -45,6 +55,7 @@ export default function DashboardPage() {
         </p>
       </div>
 
+      {/* Institutions grid */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {institutions.map((inst) => (
           <Link
