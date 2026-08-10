@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { institutions } from "@/data/institutions";
+import { posts } from "@/data/posts";
 import { RatingBadge } from "@/components/RatingBadge";
 import { SignalBadge } from "@/components/SignalBadge";
 import { ShieldIcon } from "@/components/ShieldIcon";
@@ -33,10 +34,12 @@ export default function DashboardPage() {
     highlight: false,
   }));
 
+  const latestPost = [...posts].sort((a, b) => b.date.localeCompare(a.date))[0];
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       {/* Hero */}
-      <div className="mb-12 flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:gap-8">
+      <div className="mb-8 flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:gap-8">
         <ShieldIcon className="h-24 w-24 shrink-0 sm:h-28 sm:w-28" />
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-[#0B1F3A] sm:text-4xl">
@@ -55,6 +58,28 @@ export default function DashboardPage() {
             <span>·</span>
             <span>Weekly signals: 3–9 Aug 2026</span>
           </div>
+        </div>
+      </div>
+
+      {/* Blog link callout */}
+      <div className="mb-10 rounded-xl border border-[#0B1F3A]/10 bg-[#0B1F3A]/[0.03] px-5 py-4">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <div className="text-xs font-semibold uppercase tracking-wide text-[#0B1F3A]">
+              From the blog
+            </div>
+            <p className="mt-1 text-sm text-gray-700">
+              <span className="font-medium text-gray-900">{latestPost.title}</span>
+              {" — "}
+              {latestPost.excerpt}
+            </p>
+          </div>
+          <Link
+            href="/blog"
+            className="shrink-0 text-sm font-semibold text-[#0B1F3A] hover:underline"
+          >
+            Read the blog →
+          </Link>
         </div>
       </div>
 
