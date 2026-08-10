@@ -119,12 +119,12 @@ export default async function InstitutionPage({
 
       <section className="mt-10">
         <h2 className="text-lg font-semibold text-gray-900">
-          International peers (formal ratings)
+          International peers
         </h2>
         <p className="mt-1 text-sm text-gray-500">
-          Updated quarterly · No weekly signals on peer institutions
+          Formal ratings only · 2000 baseline → 2026 current · No weekly signals
         </p>
-        <div className="mt-4 overflow-hidden rounded-lg border border-gray-200">
+        <div className="mt-4 overflow-x-auto rounded-lg border border-gray-200">
           <table className="min-w-full divide-y divide-gray-200 text-sm">
             <thead className="bg-gray-50">
               <tr>
@@ -135,7 +135,10 @@ export default async function InstitutionPage({
                   Country
                 </th>
                 <th className="px-4 py-3 text-left font-medium text-gray-500">
-                  Rating
+                  2000
+                </th>
+                <th className="px-4 py-3 text-left font-medium text-gray-500">
+                  2026
                 </th>
                 <th className="px-4 py-3 text-left font-medium text-gray-500">
                   Outlook
@@ -149,6 +152,9 @@ export default async function InstitutionPage({
                     {peer.name}
                   </td>
                   <td className="px-4 py-3 text-gray-600">{peer.country}</td>
+                  <td className="px-4 py-3">
+                    <RatingBadge rating={peer.baseline2000} size="sm" />
+                  </td>
                   <td className="px-4 py-3">
                     <RatingBadge rating={peer.rating} size="sm" />
                   </td>
