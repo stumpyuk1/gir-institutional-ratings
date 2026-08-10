@@ -612,6 +612,41 @@ export const institutions: Institution[] = [
       { name: "Public Prosecution Service", country: "Netherlands", baseline2000: "A+", rating: "A", outlook: "Stable" },
       { name: "Department of Justice / Criminal Division", country: "United States", baseline2000: "A", rating: "A–", outlook: "Stable" }
     ]
+  },
+  {
+    id: "18",
+    name: "Fire and Rescue Services",
+    slug: "fire-and-rescue",
+    formalRating: "A–",
+    formalOutlook: "Negative",
+    formalDate: "2026-Q2",
+    baseline2000: "A+",
+    trajectory: "Deteriorating",
+    weeklySignal: "Neutral",
+    signalWeek: "3–9 Aug 2026",
+    signalDriver: "Steady residual public goodwill; background coverage of culture and on-call staffing pressures without a single dominant shock.",
+    summary: "External public trust remains among the highest of any UK public service, and emergency response is still broadly effective. Lengthening response times, on-call recruitment/retention pressure, post-Grenfell building-safety demands, and HMICFRS findings on culture and misconduct have eroded the overall profile from a clear A+ baseline.",
+    trajectoryNotes: [
+      "2000 baseline reflects the combined local authority fire brigades across England, Wales, Scotland and Northern Ireland prior to later mergers and inspectorate reforms.",
+      "Public affection remains high (~80%+ positive sentiment) even as internal culture and misconduct issues have become more visible.",
+      "On-call staffing and capital pressures (fleet, stations, specialist capability) are structural constraints.",
+      "International standing on USAR and post-Grenfell technical contribution remains a strength."
+    ],
+    pillars: [
+      { name: "Public Trust & Respect", judgement: "Strong positive externally", snapshot: "Highest public affection among blue-light services; internal culture, bullying and misconduct findings are a growing legitimacy risk.", trend: "Stable" },
+      { name: "Performance & Effectiveness", judgement: "Adequate under strain", snapshot: "Emergency response generally effective; primary-fire response times have lengthened; building-safety enforcement capacity is under pressure.", trend: "Deteriorating" },
+      { name: "Financial / Operational Sustainability", judgement: "Borderline under strain", snapshot: "On-call recruitment/retention headwinds, reduced whole-time headcount since 2010, and rising capital costs for fleet and specialist equipment.", trend: "Deteriorating" },
+      { name: "International Standing", judgement: "Strong", snapshot: "Operational guidance, USAR capability and post-2017 building fire-safety technical contribution retain high OECD standing.", trend: "Stable" },
+      { name: "Shock Absorption & Adaptive Capacity", judgement: "Strong", snapshot: "Strong resilience on floods, wildfires and multi-agency emergencies; workforce planning and cultural reform capacity remain uneven across services.", trend: "Stable" }
+    ],
+    peers: [
+      { name: "Sapeurs-Pompiers / SDIS", country: "France", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Berufsfeuerwehr & Freiwillige Feuerwehr", country: "Germany", baseline2000: "AA–", rating: "A+", outlook: "Stable" },
+      { name: "Fire and Rescue NSW / State Fire Services", country: "Australia", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Major US Fire Departments / FDNY", country: "United States", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Canadian Municipal Fire Services", country: "Canada", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Swedish Civil Protection & Rescue (MSB)", country: "Sweden", baseline2000: "AA–", rating: "A+", outlook: "Stable" }
+    ]
   }
 ];
 
