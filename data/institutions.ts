@@ -474,6 +474,74 @@ export const institutions: Institution[] = [
       { name: "Church of Scotland", country: "Scotland", baseline2000: "A–", rating: "BB+", outlook: "Negative" },
       { name: "Other Nordic established churches", country: "Nordic", baseline2000: "A–", rating: "BBB", outlook: "Negative" }
     ]
+  },
+  {
+    id: "14",
+    name: "Prisons & Probation",
+    slug: "prisons-probation",
+    formalRating: "BBB",
+    formalOutlook: "Negative",
+    formalDate: "2026-Q2",
+    baseline2000: "A–",
+    trajectory: "Deteriorating",
+    weeklySignal: "Negative",
+    signalWeek: "3–9 Aug 2026",
+    signalDriver: "Ongoing coverage of overcrowding, staffing shortages and safety incidents across the estate.",
+    summary: "The prison estate is chronically overcrowded and under-staffed. Safety, purposeful activity and resettlement performance have deteriorated; probation capacity remains stretched. The system is operationally impaired relative to its mandate.",
+    trajectoryNotes: [
+      "Prison population has risen substantially since 2000 while usable capacity has not kept pace.",
+      "Assaults, self-harm and regime restrictions have been persistent inspectorate concerns.",
+      "Probation unification and workload pressures have compounded delivery risk."
+    ],
+    pillars: [
+      { name: "Public Trust & Respect", judgement: "Under pressure", snapshot: "Public confidence in rehabilitation and safety is weak; punishment expectations remain high.", trend: "Deteriorating" },
+      { name: "Performance & Effectiveness", judgement: "Weak", snapshot: "Overcrowding, limited regimes and elevated violence undermine core outcomes.", trend: "Deteriorating" },
+      { name: "Financial / Operational Sustainability", judgement: "Under severe pressure", snapshot: "Staffing shortages and estate condition are binding constraints.", trend: "Deteriorating" },
+      { name: "International Standing", judgement: "Limited", snapshot: "UK system is not a positive international benchmark on overcrowding or outcomes.", trend: "Deteriorating" },
+      { name: "Shock Absorption & Adaptive Capacity", judgement: "Under severe pressure", snapshot: "Little spare capacity to absorb further population or incident shocks.", trend: "Deteriorating" }
+    ],
+    peers: [
+      { name: "Norwegian Correctional Service", country: "Norway", baseline2000: "AA–", rating: "AA–", outlook: "Stable" },
+      { name: "Dutch prison & probation system", country: "Netherlands", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "German prison system (Länder)", country: "Germany", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Correctional Service of Canada", country: "Canada", baseline2000: "A", rating: "A–", outlook: "Stable" },
+      { name: "Australian state prison systems", country: "Australia", baseline2000: "A", rating: "A–", outlook: "Stable" },
+      { name: "French prison administration", country: "France", baseline2000: "A–", rating: "BBB+", outlook: "Negative" }
+    ]
+  },
+  {
+    id: "15",
+    name: "State School System",
+    slug: "state-school-system",
+    formalRating: "A–",
+    formalOutlook: "Negative",
+    formalDate: "2026-Q2",
+    baseline2000: "A+",
+    trajectory: "Deteriorating",
+    weeklySignal: "Neutral",
+    signalWeek: "3–9 Aug 2026",
+    signalDriver: "Background debate on attainment gaps, teacher recruitment and curriculum; no single dominant shock this week.",
+    summary: "Attainment and inspection outcomes remain mixed by international standards. Teacher recruitment and retention are persistent constraints. Parental trust in local schools is often higher than trust in the system as a whole.",
+    trajectoryNotes: [
+      "PISA and domestic attainment trends show long-run pressure on relative performance.",
+      "Workforce shortages and workload have become structural rather than cyclical.",
+      "Academisation and accountability reforms reshaped the institutional map without clearly stabilising outcomes."
+    ],
+    pillars: [
+      { name: "Public Trust & Respect", judgement: "Adequate under pressure", snapshot: "Trust in teachers and local schools often holds; confidence in the national system is weaker.", trend: "Deteriorating" },
+      { name: "Performance & Effectiveness", judgement: "Adequate under pressure", snapshot: "Outcomes are uneven; attainment gaps and post-pandemic recovery remain material.", trend: "Deteriorating" },
+      { name: "Financial / Operational Sustainability", judgement: "Under pressure", snapshot: "Real-terms funding, capital condition and workforce supply are constrained.", trend: "Deteriorating" },
+      { name: "International Standing", judgement: "Adequate", snapshot: "No longer a clear top-tier PISA performer; still a large, studied system.", trend: "Deteriorating" },
+      { name: "Shock Absorption & Adaptive Capacity", judgement: "Adequate under pressure", snapshot: "Absorbed COVID disruption with lasting scars; reform capacity is contested.", trend: "Stable" }
+    ],
+    peers: [
+      { name: "Finnish comprehensive school system", country: "Finland", baseline2000: "AA", rating: "AA–", outlook: "Stable" },
+      { name: "Singapore school system", country: "Singapore", baseline2000: "AA–", rating: "AA", outlook: "Stable" },
+      { name: "German school system (Länder)", country: "Germany", baseline2000: "A+", rating: "A+", outlook: "Stable" },
+      { name: "French school system", country: "France", baseline2000: "A", rating: "A–", outlook: "Stable" },
+      { name: "Canadian provincial school systems", country: "Canada", baseline2000: "AA–", rating: "A+", outlook: "Stable" },
+      { name: "Australian school systems", country: "Australia", baseline2000: "A+", rating: "A", outlook: "Stable" }
+    ]
   }
 ];
 
