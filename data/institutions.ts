@@ -66,6 +66,41 @@ export const institutions: Institution[] = [
       { name: "House of Bourbon", country: "Spain", baseline2000: "A+", rating: "A", outlook: "Stable" },
       { name: "House of Saxe-Coburg and Gotha", country: "Belgium", baseline2000: "AA–", rating: "A+", outlook: "Stable" }
     ]
+  },
+  {
+    id: "16",
+    name: "HMRC",
+    slug: "hmrc",
+    formalRating: "BBB",
+    formalOutlook: "Stable",
+    formalDate: "2026-Q2",
+    baseline2000: "A+",
+    trajectory: "Deteriorating",
+    weeklySignal: "Neutral",
+    signalWeek: "3–9 Aug 2026",
+    signalDriver: "Steady background coverage of digital transition and taxpayer service; no acute new shock this week.",
+    summary: "Revenue collection and tax-gap performance remain relatively strong by international standards, but public-facing service and trust have deteriorated sharply since the early 2000s. Digital-first delivery improved efficiency on paper while creating severe customer-service bottlenecks before channels matured. Recent stabilisation of call handling supports a Stable outlook at BBB.",
+    trajectoryNotes: [
+      "2000 baseline reflects combined Inland Revenue and HM Customs & Excise prior to the 2005 merger.",
+      "Customer-service metrics reached multi-year lows in 2023–24 before partial recovery into 2026.",
+      "Making Tax Digital has faced repeated delays and friction among small businesses and agents.",
+      "Crisis delivery (e.g. COVID furlough schemes) showed strong adaptive capacity."
+    ],
+    pillars: [
+      { name: "Public Trust & Respect", judgement: "Material negative", snapshot: "Acceptance of tax as civic obligation remains; trust in operational fairness and responsiveness has fallen.", trend: "Deteriorating" },
+      { name: "Performance & Effectiveness", judgement: "Adequate under strain", snapshot: "Tax gap near 5.8–6.4% of liability is respectable internationally; taxpayer experience and MTD delivery have been weaker.", trend: "Deteriorating" },
+      { name: "Financial / Operational Sustainability", judgement: "Borderline", snapshot: "Very low cost-of-collection ratio but operationally brittle after headcount cuts ahead of digital maturity.", trend: "Deteriorating" },
+      { name: "International Standing", judgement: "Strong", snapshot: "High OECD standing on data exchange, digital tax architecture and anti-evasion cooperation.", trend: "Stable" },
+      { name: "Shock Absorption & Adaptive Capacity", judgement: "Strong", snapshot: "Demonstrated exceptional agility as emergency fiscal engine during COVID support schemes.", trend: "Stable" }
+    ],
+    peers: [
+      { name: "Internal Revenue Service", country: "United States", baseline2000: "A", rating: "BBB+", outlook: "Stable" },
+      { name: "Canada Revenue Agency", country: "Canada", baseline2000: "A+", rating: "A–", outlook: "Stable" },
+      { name: "Australian Taxation Office", country: "Australia", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Direction Générale des Finances Publiques", country: "France", baseline2000: "A", rating: "A–", outlook: "Stable" },
+      { name: "Bundeszentralamt für Steuern", country: "Germany", baseline2000: "A+", rating: "A", outlook: "Stable" },
+      { name: "Swedish Tax Agency (Skatteverket)", country: "Sweden", baseline2000: "AA–", rating: "A+", outlook: "Stable" }
+    ]
   }
 ];
 
