@@ -1,0 +1,91 @@
+import Link from "next/link";
+import { institutions } from "@/data/institutions";
+import { RatingBadge } from "@/components/RatingBadge";
+import { SignalBadge } from "@/components/SignalBadge";
+
+export default function DashboardPage() {
+  const positive = institutions.filter((i) => i.weeklySignal === "Positive").length;
+  const neutral = institutions.filter((i) => i.weeklySignal === "Neutral").length;
+  const negative = institutions.filter((i) => i.weeklySignal === "Negative").length;
+
+  return (
+    <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+      <div className="mb-10">
+        <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          UK Institutional Ratings
+        </h1>
+        <p className="mt-3 max-w-2xl text-lg text-gray-600">
+          Formal quarterly GIR ratings with weekly trust-pressure signals.
+          Formal ratings are authoritative; weekly signals are provisional indicators of short-term pressure on Public Trust.
+        </p>
+        <div className="mt-4 flex flex-wrap gap-4 text-sm text-gray-500">
+          <span>Formal update: 2026-Q2</span>
+          <span>·</span>
+          <span>Weekly signals: 3–9 Aug 2026</span>
+        </div>
+      </div>
+
+      <div className="mb-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+        <h2 className="text-sm font-semibold uppercase tracking-wide text-gray-500">
+          This week’s trust-pressure snapshot
+        </h2>
+        <div className="mt-3 flex flex-wrap gap-6 text-sm">
+          <div>
+            <span className="font-semibold text-signal-positive">{positive}</span> Positive
+          </div>
+          <div>
+            <span className="font-semibold text-signal-neutral">{neutral}</span> Neutral
+          </div>
+          <div>
+            <span className="font-semibold text-signal-negative">{negative}</span> Negative
+          </div>
+        </div>
+        <p className="mt-3 text-sm text-gray-600">
+          Several institutions under continued negative trust pressure (Parliament, Police, NHS, Treasury, Local Government). Armed Forces and residual soft-power institutions remain relatively stable.
+        </p>
+      </div>
+
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {institutions.map((inst) => (
+          <Link
+            key={inst.slug}
+            href={`/institutions/${inst.slug}`}
+            className="group rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition hover:border-gray-300 hover:shadow-md"
+          >
+            <div className="flex items-start justify-between gap-3">
+              <h2 className="text-base font-semibold text-gray-900 group-hover:text-gray-700">
+                {inst.name}
+              </h2>
+              <RatingBadge rating={inst.formalRating} size="md" />
+            </div>
+
+            <div className="mt-3 flex items-center gap-2 text-xs text-gray-500">
+              <span>Outlook: {inst.formalOutlook}</span>
+              <span>·</span>
+              <span>
+                2000: {inst.baseline2000}
+                {inst.trajectory === "Deteriorating" && " ↓"}
+                {inst.trajectory === "Improving" && " ↑"}
+                {inst.trajectory === "Stable" && " →"}
+              </span>
+            </div>
+
+            <div className="mt-4">
+              <SignalBadge signal={inst.weeklySignal} />
+            </div>
+
+            <p className="mt-3 line-clamp-2 text-sm text-gray-600">
+              {inst.signalDriver}
+            </p>
+          </Link>
+        ))}
+      </div>
+
+      <div className="mt-10 text-center text-sm text-gray-500">
+        <Link href="/methodology" className="font-medium text-gray-700 underline-offset-2 hover:underline">
+          How ratings and weekly signals work →
+        </Link>
+      </div>
+    </div>
+  );
+}
