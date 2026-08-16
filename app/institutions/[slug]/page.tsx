@@ -1,3 +1,4 @@
+// Institution detail page — weekly signals + formal ratings + peer comparison
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getInstitution, institutions } from "@/data/institutions";
