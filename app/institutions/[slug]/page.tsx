@@ -6,7 +6,7 @@ import { SignalBadge } from "@/components/SignalBadge";
 import { ComparisonChart } from "@/components/ComparisonChart";
 
 export function generateStaticParams() {
-  return institutions.map((i) => ({ slug: i.slug }));
+  return institutions.map((i: { slug: string }) => ({ slug: i.slug }));
 }
 
 export default async function InstitutionPage({
@@ -26,7 +26,7 @@ export default async function InstitutionPage({
       rating2026: inst.formalRating,
       highlight: true,
     },
-    ...inst.peers.map((p) => ({
+    ...inst.peers.map((p: { name: string; country: string; baseline2000: string; rating: string; outlook: string }) => ({
       label: p.country.split(" /")[0].split(" ")[0],
       sublabel: p.name.length > 16 ? p.name.slice(0, 15) + "…" : p.name,
       baseline2000: p.baseline2000,
@@ -125,7 +125,7 @@ export default async function InstitutionPage({
       <section className="mt-10">
         <h2 className="text-lg font-semibold text-gray-900">Five pillars (formal assessment)</h2>
         <div className="mt-4 space-y-4">
-          {inst.pillars.map((p) => (
+          {inst.pillars.map((p: { name: string; judgement: string; snapshot: string; trend: string }) => (
             <div
               key={p.name}
               className="rounded-lg border border-gray-200 bg-white p-4"
@@ -174,7 +174,7 @@ export default async function InstitutionPage({
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100 bg-white">
-              {inst.peers.map((peer, i) => (
+              {inst.peers.map((peer: { name: string; country: string; baseline2000: string; rating: string; outlook: string }, i) => (
                 <tr key={i}>
                   <td className="px-4 py-3 font-medium text-gray-900">
                     {peer.name}
