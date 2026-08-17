@@ -1,7 +1,7 @@
 // Institution detail page — weekly signals + formal ratings + peer comparison
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getInstitution, institutions } from "@/data/institutions";
+import { getInstitution, institutions, type RatingCode } from "@/data/institutions";
 import { RatingBadge } from "@/components/RatingBadge";
 import { SignalBadge } from "@/components/SignalBadge";
 import { ComparisonChart } from "@/components/ComparisonChart";
@@ -27,7 +27,7 @@ export default async function InstitutionPage({
       rating2026: inst.formalRating,
       highlight: true,
     },
-    ...inst.peers.map((p: { name: string; country: string; baseline2000: string; rating: string; outlook: string }) => ({
+    ...inst.peers.map((p: { name: string; country: string; baseline2000: RatingCode; rating: RatingCode; outlook: string }) => ({
       label: p.country.split(" /")[0].split(" ")[0],
       sublabel: p.name.length > 16 ? p.name.slice(0, 15) + "…" : p.name,
       baseline2000: p.baseline2000,
@@ -175,7 +175,7 @@ export default async function InstitutionPage({
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100 bg-white">
-              {inst.peers.map((peer: { name: string; country: string; baseline2000: string; rating: string; outlook: string }, i) => (
+              {inst.peers.map((peer: { name: string; country: string; baseline2000: RatingCode; rating: RatingCode; outlook: string }, i) => (
                 <tr key={i}>
                   <td className="px-4 py-3 font-medium text-gray-900">
                     {peer.name}
