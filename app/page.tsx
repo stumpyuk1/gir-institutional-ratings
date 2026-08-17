@@ -63,7 +63,7 @@ export default function DashboardPage() {
           <div className="mt-4 flex flex-wrap gap-4 text-sm text-gray-500">
             <span>Formal update: 2026-Q2</span>
             <span>·</span>
-            <span>Weekly signals: 3–9 Aug 2026</span>
+            <span>Weekly signals: 10–16 Aug 2026</span>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ export default function DashboardPage() {
           </div>
         </div>
         <p className="mt-3 text-sm text-gray-600">
-          Several institutions under continued negative trust pressure (Parliament, Police, NHS, Treasury, Local Government, Prisons & Probation, CPS/SFO, Utility Regulators, Welfare). Armed Forces, Fire, Transport Infrastructure and residual soft-power institutions remain relatively stable.
+          Positive pressure this week on Armed Forces and Fire & Rescue (West Midlands wildfire response). Negative pressure on Police (Met data breach) and Economic & Utility Regulators (Ofwat surge-pricing / bills). All other institutions Neutral.
         </p>
       </div>
 
