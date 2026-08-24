@@ -63,7 +63,7 @@ export default function DashboardPage() {
           <div className="mt-4 flex flex-wrap gap-4 text-sm text-gray-500">
             <span>Formal update: 2026-Q2</span>
             <span>·</span>
-            <span>Weekly signals: 10–16 Aug 2026</span>
+            <span>Weekly signals: 17–23 Aug 2026</span>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ export default function DashboardPage() {
           </div>
         </div>
         <p className="mt-3 text-sm text-gray-600">
-          Positive pressure this week on Armed Forces and Fire & Rescue (West Midlands wildfire response). Negative pressure on Police (Met data breach) and Economic & Utility Regulators (Ofwat surge-pricing / bills). All other institutions Neutral.
+          Negative pressure this week on Police (Police Federation senior arrests on fraud/bribery suspicion). All other 20 institutions Neutral.
         </p>
       </div>
 
