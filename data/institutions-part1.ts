@@ -44,7 +44,7 @@ export const part1: Institution[] = [
     baseline2000: "AA",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "31 Aug – 6 Sep 2026",
+    signalWeek: "6 – 12 Sep 2026",
     signalDriver: "Quiet week with no material new coverage of institutional standing or legitimacy.",
     summary: "Public support for remaining a monarchy has fallen to a 33-year low, driven by a sharp generational split. Soft power and ceremonial roles remain strong, but the long-term legitimacy base has narrowed.",
     trajectoryNotes: [
@@ -79,7 +79,7 @@ export const part1: Institution[] = [
     baseline2000: "A",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "31 Aug – 6 Sep 2026",
+    signalWeek: "6 – 12 Sep 2026",
     signalDriver: "Quiet week; no single institutional trust shock specific to Parliament.",
     summary: "Trust in government and the system of governing are at or near historic lows. The legislature remains operationally functional, but domestic legitimacy is clearly impaired.",
     trajectoryNotes: [
@@ -114,7 +114,7 @@ export const part1: Institution[] = [
     baseline2000: "AA–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "31 Aug – 6 Sep 2026",
+    signalWeek: "6 – 12 Sep 2026",
     signalDriver: "No significant new coverage of capability, impartiality or delivery this week.",
     summary: "Still more trusted than politicians, but perceptions of bureaucracy and mixed delivery performance have grown. Professional core and impartiality norms hold under sustained pressure.",
     trajectoryNotes: [
@@ -149,7 +149,7 @@ export const part1: Institution[] = [
     baseline2000: "AA–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "31 Aug – 6 Sep 2026",
+    signalWeek: "6 – 12 Sep 2026",
     signalDriver: "Quiet week; no major new confidence or backlog stories dominating coverage.",
     summary: "Formal independence remains robust and international rankings relatively high, but public confidence and operational pressures (backlogs, resources) have deteriorated.",
     trajectoryNotes: [
@@ -184,7 +184,7 @@ export const part1: Institution[] = [
     baseline2000: "AA",
     trajectory: "Stable",
     weeklySignal: "Neutral",
-    signalWeek: "31 Aug – 6 Sep 2026",
+    signalWeek: "6 – 12 Sep 2026",
     signalDriver: "Quiet week; no material new coverage affecting public trust in the Armed Forces.",
     summary: "Public trust remains high relative to almost every other UK institution. Operational professionalism and alliance contribution continue, while personnel and equipment pressures persist.",
     trajectoryNotes: [
@@ -218,9 +218,9 @@ export const part1: Institution[] = [
     formalDate: "2026-Q2",
     baseline2000: "A+",
     trajectory: "Deteriorating",
-    weeklySignal: "Neutral",
-    signalWeek: "31 Aug – 6 Sep 2026",
-    signalDriver: "No dominant new legitimacy or operational-failure story this week.",
+    weeklySignal: "Negative",
+    signalWeek: "6 – 12 Sep 2026",
+    signalDriver: "Public and ministerial criticism of the handling of south-coast anti-migrant protests in Dover and Portsmouth, including intelligence not fully assessed and calls for more robust use of powers, raised short-term questions over operational legitimacy and effectiveness.",
     summary: "Public confidence remains under sustained pressure from high-profile misconduct cases, operational performance concerns and perceptions of differential treatment. Core capability and most officers continue to deliver, but the legitimacy cushion has thinned markedly over two decades.",
     trajectoryNotes: [
       "Multiple high-profile misconduct and culture stories have compounded.",
