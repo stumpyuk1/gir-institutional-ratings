@@ -63,7 +63,7 @@ export default function DashboardPage() {
           <div className="mt-4 flex flex-wrap gap-4 text-sm text-gray-500">
             <span>Formal update: 2026-Q2</span>
             <span>·</span>
-            <span>Weekly signals: 31 Aug – 6 Sep 2026</span>
+            <span>Weekly signals: 13 – 19 Sep 2026</span>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ export default function DashboardPage() {
           </div>
         </div>
         <p className="mt-3 text-sm text-gray-600">
-          All 21 institutions Neutral this week. No material new trust-pressure events.
+          2 Negative this week (NHS; Church of England). Remaining 19 Neutral.
         </p>
       </div>
 
