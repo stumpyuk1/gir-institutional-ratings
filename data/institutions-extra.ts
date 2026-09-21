@@ -9,7 +9,7 @@ export const extraInstitutions = [
     baseline2000: "A",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "6 – 12 Sep 2026",
+    signalWeek: "13 – 19 Sep 2026",
     signalDriver: "No new dominant pricing or enforcement story this week.",
     summary: "Public trust in economic utility regulators has collapsed relative to the early post-privatisation period. Price-control frameworks failed to prevent underinvestment and environmental harm in water, while the energy retail crisis exposed gaps in resilience oversight. International standing of the historic RPI-X model has faded; enforcement is widely seen as reactive.",
     trajectoryNotes: [
@@ -43,9 +43,9 @@ export const extraInstitutions = [
     formalDate: "2026-Q2",
     baseline2000: "BBB–",
     trajectory: "Improving",
-    weeklySignal: "Negative",
-    signalWeek: "6 – 12 Sep 2026",
-    signalDriver: "A major NATS flight-processing outage on 8 September grounded thousands of flights for hours, causing widespread passenger disruption and triggering independent reviews, with disputed reports of a military aircraft data trigger amplifying public frustration over system resilience.",
+    weeklySignal: "Neutral",
+    signalWeek: "13 – 19 Sep 2026",
+    signalDriver: "Follow-up reporting on the 8 September NATS outage did not constitute a new short-term trust shock this week.",
     summary: "From the post-Hatfield Railtrack low point, network safety and track quality have improved and the GBR transition aims to unify track and train incentives. Fiscal subsidy dependence, capital overruns and project delivery costs remain material constraints, keeping the rating in BBB territory with a Stable outlook.",
     trajectoryNotes: [
       "2000 baseline reflects Railtrack’s post-Hatfield crisis and Highways Agency operations.",
@@ -79,7 +79,7 @@ export const extraInstitutions = [
     baseline2000: "A–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "6 – 12 Sep 2026",
+    signalWeek: "13 – 19 Sep 2026",
     signalDriver: "No major new backlog or assessment stories dominating this week.",
     summary: "DWP executes very large fiscal transfers with improving fraud-and-error control and a digitally capable Universal Credit architecture. Chronic disability assessment backlogs, legacy IT risk and the post-pandemic surge in long-term sickness claims leave the system in borderline health with a Negative outlook.",
     trajectoryNotes: [
