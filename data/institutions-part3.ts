@@ -11,9 +11,9 @@ export const part3: Institution[] = [
     formalDate: "2026-Q2",
     baseline2000: "A",
     trajectory: "Deteriorating",
-    weeklySignal: "Neutral",
-    signalWeek: "6 – 12 Sep 2026",
-    signalDriver: "No material new coverage of institutional standing or attendance this week.",
+    weeklySignal: "Negative",
+    signalWeek: "13 – 19 Sep 2026",
+    signalDriver: "The Archbishop of Canterbury's award to a Pakistani cleric previously linked to an honour for Osama bin Laden, together with associated imagery, drew public and political criticism of reputational damage and institutional judgement this week.",
     summary: "The Church of England remains the established church with residual soft-power and civic roles. Attendance, membership and cultural authority have declined substantially since 2000; safeguarding failures have damaged trust.",
     trajectoryNotes: [
       "Weekly attendance and membership have fallen sharply over 25 years.",
@@ -47,7 +47,7 @@ export const part3: Institution[] = [
     baseline2000: "BBB+",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "6 – 12 Sep 2026",
+    signalWeek: "13 – 19 Sep 2026",
     signalDriver: "No dominant new overcrowding or disorder story this week.",
     summary: "The prison and probation system operates under chronic overcrowding, staffing shortages and high reoffending rates. Safety and rehabilitation performance have deteriorated relative to the early 2000s baseline.",
     trajectoryNotes: [
@@ -82,7 +82,7 @@ export const part3: Institution[] = [
     baseline2000: "A",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "6 – 12 Sep 2026",
+    signalWeek: "13 – 19 Sep 2026",
     signalDriver: "Quiet week; no major new attainment or industrial-action story.",
     summary: "The state school system continues to deliver universal provision. Attainment gaps, teacher recruitment/retention and post-pandemic recovery pressures have eroded the overall profile from the early-2000s baseline.",
     trajectoryNotes: [
@@ -117,7 +117,7 @@ export const part3: Institution[] = [
     baseline2000: "A",
     trajectory: "Stable",
     weeklySignal: "Neutral",
-    signalWeek: "6 – 12 Sep 2026",
+    signalWeek: "13 – 19 Sep 2026",
     signalDriver: "No major new tax-administration or customer-service story this week.",
     summary: "HMRC collects the bulk of UK tax revenue with improving digital channels. Customer service performance and complexity of the tax code remain persistent criticisms; compliance yield is a relative strength.",
     trajectoryNotes: [
@@ -152,7 +152,7 @@ export const part3: Institution[] = [
     baseline2000: "A",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "6 – 12 Sep 2026",
+    signalWeek: "13 – 19 Sep 2026",
     signalDriver: "Quiet week; no major new disclosure or charging-decision controversy.",
     summary: "The Crown Prosecution Service and related prosecutorial functions operate under caseload and disclosure pressures. Public confidence has been affected by high-profile failures and backlogs in the wider criminal justice system.",
     trajectoryNotes: [
@@ -187,7 +187,7 @@ export const part3: Institution[] = [
     baseline2000: "A+",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "6 – 12 Sep 2026",
+    signalWeek: "13 – 19 Sep 2026",
     signalDriver: "Quiet week after last month's wildfire coverage; no new dominant trust story.",
     summary: "External public trust remains among the highest of any UK public service, and emergency response is still broadly effective. Lengthening response times, on-call recruitment/retention pressure, post-Grenfell building-safety demands, and HMICFRS findings on culture and misconduct have eroded the overall profile from a clear A+ baseline.",
     trajectoryNotes: [
