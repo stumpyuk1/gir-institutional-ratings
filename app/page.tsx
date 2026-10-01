@@ -61,7 +61,7 @@ export default function DashboardPage() {
             signals are provisional indicators of short-term pressure on Public Trust.
           </p>
           <div className="mt-4 flex flex-wrap gap-4 text-sm text-gray-500">
-            <span>Formal update: 2026-Q2</span>
+            <span>Formal update: 2026-Q3</span>
             <span>·</span>
             <span>Weekly signals: 20 – 26 Sep 2026</span>
           </div>

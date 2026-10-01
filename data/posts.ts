@@ -9,6 +9,21 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "formal-review-2026-q3",
+    title: "Formal review 2026-Q3: two changes, nineteen reaffirmed",
+    date: "2026-10-01",
+    excerpt:
+      "Prisons & Probation moves to BB / Negative. Transport Infrastructure Bodies stays BBB+ with the outlook revised to Negative. No other formal rating or peer rating changes.",
+    tags: ["Ratings", "Formal review"],
+    body: [
+      "The 2026-Q3 formal review covers developments since the 2026-Q2 update, assessed to 1 October 2026. Formal ratings move only when the five pillars have moved enough to justify a notch or an outlook change. Weekly trust-pressure signals remain provisional and are not, by themselves, a basis for a formal change.",
+      "Prisons & Probation: BB+ / Negative to BB / Negative. The adult male estate is again operating at about 97–98 per cent. From 1 October 2026 the Sentencing Act 2026 early-release changes take effect, with about 700 eligible prisoners on the first morning and about 2,500 by year-end. Creating headroom by shortening time served, rather than by usable places, is further evidence of impairment on Performance & Effectiveness and Shock Absorption. The outlook stays Negative.",
+      "Transport Infrastructure Bodies: BBB+ / Stable to BBB+ / Negative. The rating is unchanged. A second NATS technical failure at the Prestwick centre on 21 September caused on the order of 150–200 cancellations, two weeks after the 8 September outage. That is enough to revise the 2–5 year outlook. It is not enough for a notch. The long trajectory from the 2000 baseline remains Improving.",
+      "The other nineteen UK institutions are reaffirmed at their 2026-Q2 ratings and outlooks, with the formal date moved to 2026-Q3. Record Crown Court and magistrates’ open caseloads, published on 24 September, confirm the Negative outlooks on the Judiciary and Prosecutorial Services. The July 2026 referral-to-treatment list, at 7.33 million cases, confirms the NHS Negative outlook. Thames Water’s unresolved equity position confirms Economic & Utility Regulators at BB / Negative. July YouGov trackers do not support a change to the Monarchy.",
+      "No international peer rating or outlook is changed this quarter. Announced changes to rail operator ownership and a proposed publicly owned grid investment body were noted after the review was closed and are not applied in this update. They will be assessed when delivery evidence exists.",
+    ],
+  },
+  {
     slug: "how-a-competent-government-would-improve-the-ratings",
     title: "How a competent government would improve the institutional ratings",
     date: "2026-08-11",

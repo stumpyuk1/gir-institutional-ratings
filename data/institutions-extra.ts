@@ -5,7 +5,7 @@ export const extraInstitutions = [
     slug: "utility-regulators",
     formalRating: "BB",
     formalOutlook: "Negative",
-    formalDate: "2026-Q2",
+    formalDate: "2026-Q3",
     baseline2000: "A",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
@@ -39,26 +39,26 @@ export const extraInstitutions = [
     name: "Transport Infrastructure Bodies",
     slug: "transport-infrastructure",
     formalRating: "BBB+",
-    formalOutlook: "Stable",
-    formalDate: "2026-Q2",
+    formalOutlook: "Negative",
+    formalDate: "2026-Q3",
     baseline2000: "BBB–",
     trajectory: "Improving",
     weeklySignal: "Negative",
     signalWeek: "20 – 26 Sep 2026",
     signalDriver: "A second NATS technical failure at the Prestwick centre on 21 September caused around 150–200 flight cancellations and widespread delays, amplifying public frustration over system resilience only two weeks after the major 8 September outage.",
-    summary: "From the post-Hatfield Railtrack low point, network safety and track quality have improved and the GBR transition aims to unify track and train incentives. Fiscal subsidy dependence, capital overruns and project delivery costs remain material constraints, keeping the rating in BBB territory with a Stable outlook.",
+    summary: "From the post-Hatfield Railtrack low point, network safety and track quality have improved and the GBR transition aims to unify track and train incentives. Fiscal subsidy dependence, capital overruns and project delivery costs remain material constraints, keeping the rating in BBB territory. 2026-Q3 outlook revised to Negative after a second NATS Prestwick technical failure on 21 September.",
     trajectoryNotes: [
       "2000 baseline reflects Railtrack’s post-Hatfield crisis and Highways Agency operations.",
       "Passenger satisfaction has stabilised at high levels nationally, with regional variation.",
       "GBR unification is the main structural positive; HS2 curtailments and electrification cost overruns weigh on capital credibility.",
-      "Safety engineering standards remain internationally respected."
+      "Safety engineering standards remain internationally respected. 2026-Q3 outlook change reflects repeated NATS centre failures, not a reversal of the long track-quality recovery."
     ],
     pillars: [
       { name: "Public Trust & Respect", judgement: "Adequate / neutral", snapshot: "Rail satisfaction stabilised (~87% national); road network under pressure from works, smart motorways and local pothole backlogs.", trend: "Stable" },
       { name: "Performance & Effectiveness", judgement: "Adequate", snapshot: "Improved vs early-2020s timetable crisis; punctuality and delay handling still pain points; GBR aims to fix fragmented incentives.", trend: "Improving" },
       { name: "Financial / Operational Sustainability", judgement: "Borderline / speculative", snapshot: "High subsidy reliance, capital overruns and post-pandemic demand shifts create long-term fiscal liabilities.", trend: "Stable" },
       { name: "International Standing", judgement: "Adequate", snapshot: "Safety engineering top-tier; capital delivery cost per km exceeds many OECD peers.", trend: "Stable" },
-      { name: "Shock Absorption & Adaptive Capacity", judgement: "Moderate positive", snapshot: "Strong physical resilience in severe weather; slower institutional adaptation on major capital delivery and labour modernisation.", trend: "Stable" }
+      { name: "Shock Absorption & Adaptive Capacity", judgement: "Under pressure", snapshot: "Second NATS Prestwick failure on 21 September (about 150–200 cancellations), two weeks after the 8 September outage. Weather resilience remains a strength; system-node resilience does not.", trend: "Deteriorating" }
     ],
     peers: [
       { name: "SNCF Réseau / VINCI Autoroutes", country: "France", baseline2000: "A–", rating: "A–", outlook: "Stable" },
@@ -75,7 +75,7 @@ export const extraInstitutions = [
     slug: "welfare-pensions",
     formalRating: "BBB",
     formalOutlook: "Negative",
-    formalDate: "2026-Q2",
+    formalDate: "2026-Q3",
     baseline2000: "A–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
