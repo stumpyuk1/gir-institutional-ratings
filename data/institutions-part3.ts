@@ -12,7 +12,7 @@ export const part3: Institution[] = [
     baseline2000: "A",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "20 – 26 Sep 2026",
+    signalWeek: "27 Sep – 3 Oct 2026",
     signalDriver: "Follow-up on the prior award controversy did not generate a new dominant trust shock this week.",
     summary: "The Church of England remains the established church with residual soft-power and civic roles. Attendance, membership and cultural authority have declined substantially since 2000; safeguarding failures have damaged trust.",
     trajectoryNotes: [
@@ -46,9 +46,9 @@ export const part3: Institution[] = [
     formalDate: "2026-Q3",
     baseline2000: "BBB+",
     trajectory: "Deteriorating",
-    weeklySignal: "Neutral",
-    signalWeek: "20 – 26 Sep 2026",
-    signalDriver: "No dominant new overcrowding or disorder story this week.",
+    weeklySignal: "Negative",
+    signalWeek: "27 Sep – 3 Oct 2026",
+    signalDriver: "On 1 October the Sentencing Act early-release scheme put about 700 offenders onto the streets in the first of ten waves, with jails at about 98% capacity and widespread coverage that many left without tags because probation lacked monitoring devices.",
     summary: "2026-Q3 formal review: rating lowered one notch to BB, outlook remains Negative. The adult male estate is again at about 97–98 per cent, and from 1 October 2026 headroom is being created by the Sentencing Act early-release scheme (about 700 on the first day, about 2,500 by year-end) rather than by usable places. Safety and rehabilitation performance remain impaired relative to the early 2000s baseline.",
     trajectoryNotes: [
       "Prison population and density pressures have intensified; adult male occupancy again above 97 per cent in September 2026.",
@@ -82,7 +82,7 @@ export const part3: Institution[] = [
     baseline2000: "A",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "20 – 26 Sep 2026",
+    signalWeek: "27 Sep – 3 Oct 2026",
     signalDriver: "Quiet week; no major new attainment or industrial-action story.",
     summary: "The state school system continues to deliver universal provision. Attainment gaps, teacher recruitment/retention and post-pandemic recovery pressures have eroded the overall profile from the early-2000s baseline.",
     trajectoryNotes: [
@@ -117,7 +117,7 @@ export const part3: Institution[] = [
     baseline2000: "A",
     trajectory: "Stable",
     weeklySignal: "Neutral",
-    signalWeek: "20 – 26 Sep 2026",
+    signalWeek: "27 Sep – 3 Oct 2026",
     signalDriver: "No major new tax-administration or customer-service story this week.",
     summary: "HMRC collects the bulk of UK tax revenue with improving digital channels. Customer service performance and complexity of the tax code remain persistent criticisms; compliance yield is a relative strength.",
     trajectoryNotes: [
@@ -152,7 +152,7 @@ export const part3: Institution[] = [
     baseline2000: "A",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "20 – 26 Sep 2026",
+    signalWeek: "27 Sep – 3 Oct 2026",
     signalDriver: "Quiet week; no major new disclosure or charging-decision controversy.",
     summary: "The Crown Prosecution Service and related prosecutorial functions operate under caseload and disclosure pressures. Public confidence has been affected by high-profile failures and backlogs in the wider criminal justice system.",
     trajectoryNotes: [
@@ -187,7 +187,7 @@ export const part3: Institution[] = [
     baseline2000: "A+",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "20 – 26 Sep 2026",
+    signalWeek: "27 Sep – 3 Oct 2026",
     signalDriver: "Quiet week after last month's wildfire coverage; no new dominant trust story.",
     summary: "External public trust remains among the highest of any UK public service, and emergency response is still broadly effective. Lengthening response times, on-call recruitment/retention pressure, post-Grenfell building-safety demands, and HMICFRS findings on culture and misconduct have eroded the overall profile from a clear A+ baseline.",
     trajectoryNotes: [
