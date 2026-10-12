@@ -63,7 +63,7 @@ export default function DashboardPage() {
           <div className="mt-4 flex flex-wrap gap-4 text-sm text-gray-500">
             <span>Formal update: 2026-Q3</span>
             <span>·</span>
-            <span>Weekly signals: 20 – 26 Sep 2026</span>
+            <span>Weekly signals: 4 – 10 Oct 2026</span>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ export default function DashboardPage() {
           </div>
         </div>
         <p className="mt-3 text-sm text-gray-600">
-          1 Negative this week (Transport Infrastructure Bodies). Remaining 20 Neutral.
+          1 Negative this week (Prisons & Probation). Remaining 20 Neutral.
         </p>
       </div>
 
