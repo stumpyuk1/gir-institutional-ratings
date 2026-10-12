@@ -12,8 +12,8 @@ export const part2: Institution[] = [
     baseline2000: "A",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "27 Sep – 3 Oct 2026",
-    signalDriver: "Follow-up coverage of the Thirlwall Inquiry did not constitute a new short-term trust shock this week.",
+    signalWeek: "4 – 10 Oct 2026",
+    signalDriver: "Routine waiting-list and winter-pressure reporting; no new dominant short-term trust shock.",
     summary: "The NHS retains strong symbolic attachment as a national institution, but satisfaction with access and waiting times has been low for years. Financial and workforce pressures remain intense.",
     trajectoryNotes: [
       "Public attachment to founding principles remains high.",
@@ -47,7 +47,7 @@ export const part2: Institution[] = [
     baseline2000: "AA–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "27 Sep – 3 Oct 2026",
+    signalWeek: "4 – 10 Oct 2026",
     signalDriver: "Quiet week with no material new legitimacy or value-for-money stories.",
     summary: "UK universities retain strong global research standing and soft-power value. Domestic legitimacy is under pressure from student debt, industrial action and perceived value-for-money questions.",
     trajectoryNotes: [
@@ -82,7 +82,7 @@ export const part2: Institution[] = [
     baseline2000: "AA–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "27 Sep – 3 Oct 2026",
+    signalWeek: "4 – 10 Oct 2026",
     signalDriver: "No dominant new impartiality or funding crisis story this week.",
     summary: "The BBC remains a major soft-power and cultural institution with high reach. Trust in its impartiality has declined and the licence-fee settlement remains politically contested.",
     trajectoryNotes: [
@@ -117,8 +117,8 @@ export const part2: Institution[] = [
     baseline2000: "AAA",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "27 Sep – 3 Oct 2026",
-    signalDriver: "Routine open-letter exchange on inflation; no material new institutional-standing shock.",
+    signalWeek: "4 – 10 Oct 2026",
+    signalDriver: "No material new institutional-standing shock this week.",
     summary: "Operational independence and technical credibility remain high. The inflation episode of 2021–23 and subsequent policy response dented the near-perfect pre-crisis reputation, but the institution retains strong comparative standing.",
     trajectoryNotes: [
       "Independence framework introduced in 1997 remains the cornerstone.",
@@ -152,8 +152,8 @@ export const part2: Institution[] = [
     baseline2000: "AA",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "27 Sep – 3 Oct 2026",
-    signalDriver: "No major new fiscal or institutional-credibility story this week.",
+    signalWeek: "4 – 10 Oct 2026",
+    signalDriver: "Budget speculation building ahead of 28 October but no major new institutional-credibility story this week.",
     summary: "Treasury retains core fiscal and economic coordination functions. Credibility has been tested by successive fiscal events and the 2022 mini-budget episode; medium-term fiscal framework remains a work in progress.",
     trajectoryNotes: [
       "Fiscal rules and OBR framework provide institutional anchors.",
@@ -187,7 +187,7 @@ export const part2: Institution[] = [
     baseline2000: "A–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "27 Sep – 3 Oct 2026",
+    signalWeek: "4 – 10 Oct 2026",
     signalDriver: "No single dominant section 114 or service-collapse story this week.",
     summary: "Local government delivers a wide range of essential services under sustained funding pressure. Multiple section 114 notices and service reductions have become more frequent; the overall system is under clear strain.",
     trajectoryNotes: [
