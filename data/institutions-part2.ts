@@ -11,9 +11,9 @@ export const part2: Institution[] = [
     formalDate: "2026-Q3",
     baseline2000: "A",
     trajectory: "Deteriorating",
-    weeklySignal: "Neutral",
-    signalWeek: "4 – 10 Oct 2026",
-    signalDriver: "Routine waiting-list and winter-pressure reporting; no new dominant short-term trust shock.",
+    weeklySignal: "Negative",
+    signalWeek: "2 – 8 Nov 2026",
+    signalDriver: "Families of Southport and Nottingham attack victims publicly called out improper staff access to confidential medical records as a flagrant abuse of power, with further dismissals at NUH reinforcing privacy and trust concerns.",
     summary: "The NHS retains strong symbolic attachment as a national institution, but satisfaction with access and waiting times has been low for years. Financial and workforce pressures remain intense.",
     trajectoryNotes: [
       "Public attachment to founding principles remains high.",
@@ -47,7 +47,7 @@ export const part2: Institution[] = [
     baseline2000: "AA–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "4 – 10 Oct 2026",
+    signalWeek: "2 – 8 Nov 2026",
     signalDriver: "Quiet week with no material new legitimacy or value-for-money stories.",
     summary: "UK universities retain strong global research standing and soft-power value. Domestic legitimacy is under pressure from student debt, industrial action and perceived value-for-money questions.",
     trajectoryNotes: [
@@ -82,7 +82,7 @@ export const part2: Institution[] = [
     baseline2000: "AA–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "4 – 10 Oct 2026",
+    signalWeek: "2 – 8 Nov 2026",
     signalDriver: "No dominant new impartiality or funding crisis story this week.",
     summary: "The BBC remains a major soft-power and cultural institution with high reach. Trust in its impartiality has declined and the licence-fee settlement remains politically contested.",
     trajectoryNotes: [
@@ -116,9 +116,9 @@ export const part2: Institution[] = [
     formalDate: "2026-Q3",
     baseline2000: "AAA",
     trajectory: "Deteriorating",
-    weeklySignal: "Neutral",
-    signalWeek: "4 – 10 Oct 2026",
-    signalDriver: "No material new institutional-standing shock this week.",
+    weeklySignal: "Positive",
+    signalWeek: "2 – 8 Nov 2026",
+    signalDriver: "The MPC raised Bank Rate by 0.25pp to 4% (8–1 vote) on 5 November to counter rising inflation from Middle East energy shocks, reinforcing the institution’s credibility on the inflation target.",
     summary: "Operational independence and technical credibility remain high. The inflation episode of 2021–23 and subsequent policy response dented the near-perfect pre-crisis reputation, but the institution retains strong comparative standing.",
     trajectoryNotes: [
       "Independence framework introduced in 1997 remains the cornerstone.",
@@ -152,8 +152,8 @@ export const part2: Institution[] = [
     baseline2000: "AA",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "4 – 10 Oct 2026",
-    signalDriver: "Budget speculation building ahead of 28 October but no major new institutional-credibility story this week.",
+    signalWeek: "2 – 8 Nov 2026",
+    signalDriver: "Quiet week; no major new institutional-credibility story specific to Treasury.",
     summary: "Treasury retains core fiscal and economic coordination functions. Credibility has been tested by successive fiscal events and the 2022 mini-budget episode; medium-term fiscal framework remains a work in progress.",
     trajectoryNotes: [
       "Fiscal rules and OBR framework provide institutional anchors.",
@@ -187,7 +187,7 @@ export const part2: Institution[] = [
     baseline2000: "A–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "4 – 10 Oct 2026",
+    signalWeek: "2 – 8 Nov 2026",
     signalDriver: "No single dominant section 114 or service-collapse story this week.",
     summary: "Local government delivers a wide range of essential services under sustained funding pressure. Multiple section 114 notices and service reductions have become more frequent; the overall system is under clear strain.",
     trajectoryNotes: [
