@@ -8,9 +8,9 @@ export const extraInstitutions = [
     formalDate: "2026-Q3",
     baseline2000: "A",
     trajectory: "Deteriorating",
-    weeklySignal: "Neutral",
-    signalWeek: "2 – 8 Nov 2026",
-    signalDriver: "No new dominant pricing or legitimacy shock this week.",
+    weeklySignal: "Negative",
+    signalWeek: "9 – 15 Nov 2026",
+    signalDriver: "Environment Secretary warned against bonus loopholes for water bosses, with Ofwat reviewing the ban amid poor performance.",
     summary: "Public trust in economic utility regulators has collapsed relative to the early post-privatisation period. Price-control frameworks failed to prevent underinvestment and environmental harm in water, while the energy retail crisis exposed gaps in resilience oversight. International standing of the historic RPI-X model has faded; enforcement is widely seen as reactive.",
     trajectoryNotes: [
       "2000 baseline reflects the early post-privatisation framework under Ofgas/OFFER (merged into Ofgem) and Ofwat.",
@@ -44,8 +44,8 @@ export const extraInstitutions = [
     baseline2000: "BBB–",
     trajectory: "Improving",
     weeklySignal: "Neutral",
-    signalWeek: "2 – 8 Nov 2026",
-    signalDriver: "No new NATS outage or dominant network-resilience story this week.",
+    signalWeek: "9 – 15 Nov 2026",
+    signalDriver: "No new NATS outage or dominant network-resilience story; routine disruptions only.",
     summary: "From the post-Hatfield Railtrack low point, network safety and track quality have improved and the GBR transition aims to unify track and train incentives. Fiscal subsidy dependence, capital overruns and project delivery costs remain material constraints, keeping the rating in BBB territory. 2026-Q3 outlook revised to Negative after a second NATS Prestwick technical failure on 21 September.",
     trajectoryNotes: [
       "2000 baseline reflects Railtrack’s post-Hatfield crisis and Highways Agency operations.",
@@ -79,7 +79,7 @@ export const extraInstitutions = [
     baseline2000: "A–",
     trajectory: "Deteriorating",
     weeklySignal: "Neutral",
-    signalWeek: "2 – 8 Nov 2026",
+    signalWeek: "9 – 15 Nov 2026",
     signalDriver: "No major new backlog or assessment stories dominating this week.",
     summary: "DWP executes very large fiscal transfers with improving fraud-and-error control and a digitally capable Universal Credit architecture. Chronic disability assessment backlogs, legacy IT risk and the post-pandemic surge in long-term sickness claims leave the system in borderline health with a Negative outlook.",
     trajectoryNotes: [
